@@ -2,12 +2,6 @@
 /*Using the size of operator*/
 int main(void)
 {
-	char;
-	int;
-	long int;
-	long long int;
-	float;
-
 	printf("Size of a char: %d byte(s)\n", sizeof(char));
 	printf("Size of an int: %d byte(s)\n", sizeof(int));
 	printf("Size of a long int: %d byte(s)\n", sizeof(long int));
