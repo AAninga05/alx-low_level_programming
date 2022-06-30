@@ -1,6 +1,6 @@
 #include <stdio.h>
 /*Using the size of operator*/
-int main(void)
+int main()
 {
 	printf("Size of a char: %d byte(s)\n", sizeof(char));
 	printf("Size of an int: %d byte(s)\n", sizeof(int));
