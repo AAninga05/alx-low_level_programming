@@ -24,15 +24,15 @@ n = rand() - RAND_MAX / 2;
 lastdigitn = n % 10;
 if (n > 5)
 {
-printf("Last digit of %d is and %d is greater than 5\n", n, lastdigitn);
+printf("Last digit of %d is %d and is greater than 5\n", n, lastdigitn);
 }
 else if (n == 0)
 {
-printf("Last digit of %d is and %d is 0\n", n, lastdigitn);
+printf("Last digit of %d is %d and is 0\n", n, lastdigitn);
 }
 else
 {
-printf("Last digit of %d is %d and is less than 6 and not zero\n",
+printf("Last digit of %d is %d and is less than 6 and not 0\n",
 n, lastdigitn);
 }
 return (0);
