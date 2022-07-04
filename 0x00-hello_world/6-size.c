@@ -4,6 +4,7 @@
  *
  * Description: Using the size of operator
  *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
