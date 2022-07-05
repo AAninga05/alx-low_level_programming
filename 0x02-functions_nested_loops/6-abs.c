@@ -2,7 +2,7 @@
 /**
  * _abs - program that prints out absolute value of interger
  *
- * @int: Integer parameter
+ * @n: Integer parameter
  *
  * Return: Always 0
  */
@@ -11,6 +11,7 @@ int _abs(int)
 	if (n < 0)
 	{
 		n = -n;
-		return (n);
+		_putchar(n);
+		return (0);
 	}
 }

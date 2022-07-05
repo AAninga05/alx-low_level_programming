@@ -2,11 +2,11 @@
 /**
  * print_last_digit - program that prints last digit of integer
  *
- * @int: Integer parameter
+ * @n: Integer parameter
  *
  * Return: Always 0
  */
-int print_last_digit(int)
+int print_last_digit(int n)
 {
 		if (n < 0)
 	{
