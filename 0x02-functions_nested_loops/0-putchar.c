@@ -8,15 +8,15 @@
  */
 int main(void)
 {
-	__putchar(95);
-	__putchar('p');
-	__putchar('u');
-	__putchar('t');
-	__putchar('c');
-	__putchar('h');
-	__putchar('a');
-	__putchar('r');
-	__putchar('\n');
+	_putchar(95);
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 
 	return (0);
 }
