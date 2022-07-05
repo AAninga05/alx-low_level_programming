@@ -1,6 +1,9 @@
-#include <main.h>
+#include "main.h"
 /**
- * 
+ *  print_alphabet_x10 - Prints complete alphabets
+ *  on 10 lines
+ *
+ *  Return: Always 0
  */
 void print_alphabet_x10(void)
 {
