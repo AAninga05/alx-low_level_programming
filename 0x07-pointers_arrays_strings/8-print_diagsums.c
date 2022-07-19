@@ -3,22 +3,26 @@
 /**
  * print_diagsums - Prints sum of diagonal
  * prints sum of diagonals
- * @a: array to e printed
+ * @a: array to be printed
  * @size: size of a
  */
 void print_diagsums(int *a, int size)
 {
-	int i, j, sum = 0;
+	int i, sum1, sum2;
 
+	sum1 = 0;
 	for (i = 0; i < size; i++)
 	{
-		sum += *(a + i * size + i);
-		printf("%d, ", sum);
+		sum1 += *(a + i);
+		a += size;
 	}
-		sum = 0;
-		for (j = 0; j < size; j++)
-		{
-		sum += *(a + size * (j + 1) - (j + 1));
-		printf("%d\n", sum);
-		}
+	a -= size;
+	sum2 = 0;
+	for (i = 0; i < size; i++)
+	{
+		sum2 += *(a + i);
+		a -= size;
+	}
+	printf("%d, %d", sum1, sum2);
+	printf("\n");
 }
