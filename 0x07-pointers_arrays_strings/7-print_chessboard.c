@@ -11,7 +11,6 @@ void print_chessboard(char (*a)[8])
 	for (i = 48; i < 56; i++)
 	{
 		for (j = 48; i < 56; j++)
-		
 			_putchar(a[i][j]);
 		_putchar('\n');
 	}

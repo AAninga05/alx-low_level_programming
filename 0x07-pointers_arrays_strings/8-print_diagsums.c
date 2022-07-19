@@ -14,8 +14,8 @@ void print_diagsums(int *a, int size)
 	{
 		sum += *(a + i * size + i);
 		printf("%d, ", sum);
-	}	
-	sum = 0;
+	}
+		sum = 0;
 		for (j = 0; j < size; j++)
 		{
 		sum += *(a + size * (j + 1) - (j + 1));
