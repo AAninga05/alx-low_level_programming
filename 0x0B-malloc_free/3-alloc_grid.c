@@ -5,7 +5,7 @@
  * @width: width of 2D array
  * @height: height of 2D array
  *
- * Return: printed matrix or NULL(error) 
+ * Return: printed matrix or NULL(error)
  */
 int **alloc_grid(int width, int height)
 {
@@ -15,7 +15,7 @@ int **alloc_grid(int width, int height)
 	if (height <= 0 || width <= 0)
 		return (NULL);
 	arr = (int **)malloc(sizeof(int *) * height)
-	if (arr = NULL)
+	if (arr == NULL)
 		return (NULL);
 	for (i = 0; i < height; i++)
 	{

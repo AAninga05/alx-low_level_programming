@@ -3,7 +3,7 @@
  * create_array - create an array of char and initialize it
  * @size: array size
  * @c: charater to be initialized with
- * Return: string pointer 
+ * Return: string pointer
  */
 char *create_array(unsigned int size, char c)
 {
