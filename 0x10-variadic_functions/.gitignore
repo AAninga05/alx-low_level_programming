@@ -1,0 +1,4 @@
+*.gch
+*.out
+*testfile.c
+*_putchar.c
