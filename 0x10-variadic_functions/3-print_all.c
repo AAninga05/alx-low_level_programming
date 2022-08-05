@@ -40,10 +40,9 @@ void print_all(const char * const format, ...)
 				{
 					printf("nill");
 					break;
-				} else {
+				}
 					printf("%s", str);
 					break;
-				}
 			case 'f':
 				printf("%f", va_arg(ptrall, double)), c = 1;
 				break;
