@@ -24,7 +24,6 @@ void print_all(const char * const format, ...)
 			if (format[i] == t_arg[j] && c)
 			{
 				printf(", ");
-				break;
 			} j++;
 		}
 		switch (format[i])
@@ -36,14 +35,14 @@ void print_all(const char * const format, ...)
 				printf("%d", va_arg(ptrall, int)), c = 1;
 				break;
 			case 's':
-				str = va_arg(ptrall, char *);
+				str = va_arg(ptrall, char *), c = 1;
 				if (!str)
 				{
 					printf("nill");
 					break;
 				}
-					printf("%s", str);
-					break;
+				printf("%s", str);
+				break;
 			case 'f':
 				printf("%f", va_arg(ptrall, double)), c = 1;
 				break;
