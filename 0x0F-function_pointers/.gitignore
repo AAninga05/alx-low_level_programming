@@ -1,2 +1,3 @@
 *.gch
 *testfile.c
+*.out
