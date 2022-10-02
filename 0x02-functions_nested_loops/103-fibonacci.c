@@ -6,22 +6,22 @@
  */
 int main(void)
 {
-	long int i, x, y, sum, tSum;
+	long int i, fib1, fib2, sum, tSum;
 
-	x = 1;
-	y = 2;
+	fib1 = 1;
+	fib2 = 2;
 	sum = 0;
 	tSum = 0;
 
 	for (i = 0; i < 49; i++)
 	{
-		if ((y % 2 == 0) && (y <= 4000000))
+		if ((fib2 % 2 == 0) && (fib2 <= 4000000))
 		{
-			tSum = tSum + y;
+			tSum = tSum + fib2;
 		}
-		sum = x + y;
-		x = y;
-		y = sum;
+		sum = fib1 + fib2;
+		fib1 = fib2;
+		fib2 = sum;
 	}
 	printf("%lu\n", tSum);
 	return (0);
