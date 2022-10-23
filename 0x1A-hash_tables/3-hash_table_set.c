@@ -3,7 +3,11 @@ int k(hash_table_t *h, const char *k, unsigned long int idx, const char *val);
 int check_key_size(const char *key);
 
 /**
- * hash_table_set - 
+ * hash_table_set - Adds an element to a hash table.
+ * @ht: The hash table you want to add or update the key/value
+ * @key:  It is the key. key can not be an empty string
+ * @value: The value associated with the key. value can be an empty string
+ * Return: 1 if it succeeded, 0 otherwise.
  */
 int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 {
